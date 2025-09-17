@@ -16,7 +16,7 @@ function appendValue(value) {
   } else {
     display.value += value;
   }
-}
+} 
 
 function isOperator(val) {
   return ["+", "-", "*", "/", "%"].includes(val);
@@ -30,7 +30,7 @@ function clearDisplay() {
 function deleteLast() {
   display.value = display.value.slice(0, -1) || "0";
 }
-
+ 
 function calculate() {  
   try {
     let result = eval(display.value);
