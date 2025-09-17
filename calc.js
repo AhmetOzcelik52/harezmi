@@ -63,7 +63,7 @@ document.addEventListener("keydown", function (e) {
     } else {
       appendValue(e.key);
     }
-  } else {
+  } else { 
     e.preventDefault();
   }
 });

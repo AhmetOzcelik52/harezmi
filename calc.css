@@ -60,7 +60,7 @@ button:hover {
    background-color: rgb(60, 60, 60);
 }
 
-button:active {
+button:active { 
   background-color: rgb(33, 33, 33);
 }
 
